@@ -1,0 +1,242 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.fixed-width {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Header Section Start */
+.header {
+    background: #22C3A3;
+    text-align: center;
+    box-shadow: 1px 1px 1px #000;
+    padding: 15px 0px;
+
+    
+}
+
+.header-logo h2 {
+    float: left;
+    width: 30%;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-menu {
+    float: right;
+    width: 70%;
+}
+.header-menu ul li {
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    
+}
+.header-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+.banner {
+    background: url(img/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding: 150px 0px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.banner-text p {
+    color: #CEF2EB;
+    padding: 20px;
+    font-size: 18px;
+}
+.btn {
+    text-transform: uppercase;
+    padding: 15px 25px;
+    background: none;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Banner Section End */
+
+/* Service Section Start */
+.service {
+    padding: 80px 0px;
+    background: #fff;
+    border-bottom: 2px solid #22C3A3;
+}
+
+.service-text {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.service-text h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.service-text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.service-item {
+    float: left;
+    width: 23%;
+    text-align: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.service-item i {
+    color: #22C3A3;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.service-item h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+.service-item p {
+    font-size: 18px;
+    color: #666666;
+}
+
+/* Service Section End */
+
+/* About Section Start */
+.about {
+    padding: 80px 0px;
+}
+.about-title h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 21px;
+}
+.about-title p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+.about-img-box {
+    float: left;
+    width: 50%;
+}
+.abou-text-box {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+.abou-text-box h3 {
+    font-size: 25px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.abou-text-box p {
+    font-size: 16px;
+    color: #666666;
+    padding-bottom: 10px;
+}
+/* About Section End */
+
+/* Contact Section Start */
+.contact {
+    background: #F6F6F6;
+    padding: 80px 0px;
+}
+
+.contact-title h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 44px;
+}
+.contact-title p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    color: #666666;
+}
+
+.contact-item {
+    float: left;
+    width: 32.3%;
+    text-align: center;
+    margin-left: 10px;
+}
+.contact-item i {
+    color: #22C3A3;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-item p {
+    color: #666666;
+}
+/* Contact Section End */
+
+/* Footer Icon Section Start */
+.footer-icon {
+    background: #22C3A3;
+    padding: 10px 0px;
+}
+.icon {
+    text-align: center;
+    color: #fff;
+} 
+.icon ul {
+    list-style: none;
+    display: inline-block;
+}
+.icon ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.icon ul li a {
+    color: #fff;
+}
+/* Footer Icon Section End */
+
+/* Footer Section Start */
+.footer {
+    background: #222222;
+    padding: 10px 0px;
+}
+.footer-text p {
+    color: #666666;
+    text-align: center;
+}
+/* Footer Section End */
